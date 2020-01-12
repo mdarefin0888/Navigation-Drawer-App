@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/bg"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:textColor="@color/whileColor"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saiful Islam Sajon"/>
+    <TextView
+        android:id="@+id/email"
+        android:textColor="@color/whileColor"
+        android:textSize="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="saifulislamsajon@gmail.com"/>
+</LinearLayout>
